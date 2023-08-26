@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Components/Common/Header";
 import Footer from "./Components/Common/Footer";
 
-const uiux = () => {
+const dataanalytics = () => {
   return (
     <div>
       <Header />
@@ -10,16 +10,16 @@ const uiux = () => {
         <div className="container px-5 py-24 mx-auto bg-gray-900">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <img
-              alt="ecommerce"
+              alt="data analytics"
               className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="/uiux.svg"
+              src="/dataanalytics.svg"
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 Coreship{" "}
               </h2>
               <h1 className="text-white text-3xl title-font font-medium mb-1">
-                UI/UX
+                Data Analytics
               </h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
@@ -82,9 +82,9 @@ const uiux = () => {
                 </span>
               </div>
               <p className="leading-relaxed">
-               Dive into the world of User Interface (UI) and User Experience (UX) design,
-               where you'll learn to craft visually stunning and user-centric experiences 
-               that captivate users.
+              Explore the world of data-driven insights and learn to analyze,
+              interpret, and visualize data to make informed business decisions 
+              and uncover valuable trends.
               </p>
               <p className="leading-relaxed pt-2"><span className='text-bold text-white'>Timeline: </span> 3 months</p>
               <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5"></div>
@@ -122,93 +122,93 @@ const uiux = () => {
                   Course Syllabus:{" "}
                 </p>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 1 : INTRODUCTION TO UI/UX DESIGN{" "}
+                  Month 1 : INTRODUCTION TO DATA ANALYTICS{" "}
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
-                  <li>Week 1: Introduction to UI/UX</li>
+                  <li>Week 1: Introduction to Data Analytics</li>
                   <li>
-                  Understanding the importance of user-centered design and the roles of UI and UX.
+                  Understanding the role of data analytics in business decision-making and problem-solving.
                   </li>
                   <li>
-                  Week 2: User Research and Personas
+                  Week 2: Data Collection and Cleaning
                   </li>
                   <li>
-                  Exploring user research methodologies and creating user personas
+                  Exploring methods to gather, clean, and preprocess raw data for analysis
                   </li>
                   <li> 
-                  Week 3: Information Architecture
+                  Week 3: Exploratory Data Analysis (EDA)
                   </li>
                   <li>
-                  Structuring and organizing content for intuitive navigation and usability.
+                  Visualizing and summarizing data to gain initial insights and identify patterns
                   </li>
                   <li>
-                  Week 4: Wireframing and Prototyping
+                  Week 4: Data Visualization
                   </li>
                   <li>
-                  Creating low-fidelity wireframes and interactive prototypes using design tools.
+                  Creating meaningful visualizations to communicate data-driven insights effectively
                   </li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 2 : UI DESIGN AND INTERACTION
+                  Month 2 : DATA ANALYSIS AND INTERPRETATION
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
                   <li>
-                  Week 5: Visual Design Principles
+                  Week 5: Descriptive Statistics
                   </li>
-                  <li>Exploring color theory, typography, and layout design.</li>
+                  <li>Analyzing data distributions, central tendencies, and variability.</li>
                   <li>
-                  Week 6: UI Design Tools
-                  </li>
-                  <li>
-                  Hands-on experience with design software like Sketch, Figma, or Adobe XD
+                  Week 6: Inferential Statistics
                   </li>
                   <li>
-                  Week 7:  Responsive Design
+                  Understanding probability, hypothesis testing, and confidence intervals.
                   </li>
                   <li>
-                  Designing interfaces that adapt seamlessly across different devices and screen sizes.
+                  Week 7: Regression Analysis
                   </li>
                   <li>
-                  Week 8: Interaction Design
+                  Exploring linear and logistic regression for predictive modeling.
                   </li>
                   <li>
-                  Adding meaningful animations and micro-interactions to enhance user experience.
+                  Week 8: Time Series Analysis
+                  </li>
+                  <li>
+                  Analyzing time-dependent data to uncover trends and make forecasts.
                   </li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 3 : UX DESIGN AND FINAL PROJECT
+                  Month 3 : ADVANCED ANALYTICS AND APPLICATIONS
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
                   <li>
-                  Week 9: Usability Testing
+                  Week 9: Clustering and Dimensionality Reduction
                   </li>
                   <li>
-                  Conducting usability tests to gather feedback and refine designs
+                  Applying unsupervised learning techniques to group data and reduce complexity.
                   </li>
                   <li>
-                  Week 10: User-Centered Evaluation
+                  Week 10: Text Mining and Sentiment Analysis
                   </li>
-                  <li>Analyzing user feedback and iterating on designs to improve usability.</li>
+                  <li>Analyzing textual data and extracting insights using natural language processing.</li>
                   <li>
-                  Week 11: Accessibility and Inclusive Design
+                  Week 11: Data Ethics and Privacy
                   </li>
                   <li>
-                  Ensuring your designs are accessible to all users, including those with disabilities.
+                  Understanding the ethical implications of data analytics and ensuring privacy compliance.
                   </li>
                   <li>
                   Week 12: Capstone Project
                   </li>
                   <li>
-                  Applying UI/UX concepts to design and present a complete digital product.
+                  Applying data analytics techniques to solve a real-world problem and present findings.
                   </li>
                 </ul>
               </div>
@@ -302,4 +302,4 @@ const uiux = () => {
   );
 };
 
-export default uiux;
+export default dataanalytics;
