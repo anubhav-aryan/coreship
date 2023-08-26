@@ -9,8 +9,8 @@ const Coursessection = () => {
       <section className="text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="text-5xl font-bold mb-4 text-white">
-              Learn New Technology{" "}
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold mb-4 text-white">
+             Learn New Technology{" "}
             </h1>
           </div>
           <div className="flex flex-wrap -m-4">

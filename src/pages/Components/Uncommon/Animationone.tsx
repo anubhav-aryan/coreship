@@ -3,14 +3,14 @@ import { TypeAnimation } from 'react-type-animation';
 
 const animationone = () => {
   return (
-    <div className='text-blue-600 text-3xl font-bold'>
+    <div className='text-blue-600 text-xl md:text-2xl lg:text-3xl font-bold'>
       <TypeAnimation
       sequence={[
         'Web Development',
         1000, 
         'Cloud Computing',
         1000,
-        'Data Structures and Algorithm',
+        'Data Structures and Algorithms',
         1000,
         'VLSI',
         1000
