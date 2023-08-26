@@ -13,7 +13,7 @@ const aboutus = () => {
             The Purpose of
         </h1>
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-8">
-            OROM
+            CORESHIP
         </h1>
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Learn. Develop. Excel. Intern.
@@ -23,7 +23,7 @@ const aboutus = () => {
         </h2>
         <div className='w-3/4 md:w-3/4 lg:w-1/3 pt-12 text-lg md:text-xl lg:text-2xl text-left pb-12'>
         <p className='mb-4'>We are dedicated to empowering college students with the knowledge and skills they need to excel in the digital world.</p>
-        <p className=' mb-4'>At OROM, we understand the importance of practical experience and real-world application. That&apos;s why our courses not only provide 
+        <p className=' mb-4'>At CORESHIP, we understand the importance of practical experience and real-world application. That&apos;s why our courses not only provide 
          comprehensive theoretical knowledge but also offer guaranteed internships after completion.</p>
         <p className='mb-4'>We believe that hands-on experience is the key to bridging the gap between academia and industry, giving our students a competitive
          edge in today&apos;s job market.</p>
@@ -36,7 +36,7 @@ const aboutus = () => {
             src="/about.svg"
             width={500}
             height={500}
-            alt="Orom"
+            alt="Coreship"
             />
         </div>
         </div>

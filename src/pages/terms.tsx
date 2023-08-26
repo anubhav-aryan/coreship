@@ -19,7 +19,7 @@ const terms = () => {
           >
             <li>
               Acceptance of Terms By using this educational website (&quot;the
-              Site&quot;), a service of OROM Corp (&quot;we&quot;, &quot;us&quot;), you agree to be
+              Site&quot;), a service of CORESHIP Corp (&quot;we&quot;, &quot;us&quot;), you agree to be
               bound by these Terms and Conditions (&quot;Terms&quot;), all applicable laws
               and regulations, and agree that you are responsible for compliance
               with any applicable local laws.
@@ -54,11 +54,11 @@ const terms = () => {
             <li>
               Intellectual Property Rights The Site and its original content,
               features, and functionality are and will remain the exclusive
-              property of OROM Corp and its licensors. The Site is protected by
+              property of CORESHIP Corp and its licensors. The Site is protected by
               copyright, trademark, and other laws of both the United States and
               foreign countries. Our trademarks and trade dress may not be used
               in connection with any product or service without the prior
-              written consent of OROM Corp.
+              written consent of CORESHIP Corp.
             </li>
             <li>
               Privacy Policy We respect your privacy and are committed to

@@ -19,7 +19,7 @@ const privacy = () => {
               className="marker:text-sky-400 list-decimal pl-5 text-slate-400 pt-8"
             >
               <li>
-                Introduction We at OROM Corp, the provider of OROM, are
+                Introduction We at CORESHIP Corp, the provider of CORESHIP, are
                 committed to protecting and respecting your privacy. This
                 Privacy Policy describes the types of personal data we collect
                 from and about you when you visit our website, or when you use

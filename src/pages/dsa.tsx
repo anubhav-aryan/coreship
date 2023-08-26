@@ -219,7 +219,7 @@ const dsa = () => {
           <div className="">
             <div className="grid grid-cols-2 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
               <div className="flex items-center">Enrollment Benefits</div>
-              <div>OROM</div>
+              <div>CORESHIP</div>
             </div>
             <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
               <div className="text-gray-500 dark:text-gray-400">

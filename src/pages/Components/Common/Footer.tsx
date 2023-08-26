@@ -29,7 +29,7 @@ const Footer = () => {
         <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
     </a>
 </div>
-<p className="text-center text-white font-medium">&copy; 2021 OROM. All Rights reserved.</p>
+<p className="text-center text-white font-medium">&copy; 2021 CORESHIP. All Rights reserved.</p>
 </footer>
     </div>
   )
