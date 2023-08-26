@@ -83,7 +83,7 @@ const uiux = () => {
               </div>
               <p className="leading-relaxed">
                Dive into the world of User Interface (UI) and User Experience (UX) design,
-               where you'll learn to craft visually stunning and user-centric experiences 
+               where you&apos;ll learn to craft visually stunning and user-centric experiences 
                that captivate users.
               </p>
               <p className="leading-relaxed pt-2"><span className='text-bold text-white'>Timeline: </span> 3 months</p>

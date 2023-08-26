@@ -83,7 +83,7 @@ const vlsi = () => {
               </div>
               <p className="leading-relaxed">
               Delve into the world of Very Large Scale Integration (VLSI), 
-              where you'll learn to design complex integrated circuits,
+              where you&apos;ll learn to design complex integrated circuits,
               paving the way for cutting-edge electronic devices.
               </p>
               <p className="leading-relaxed pt-2"><span className='text-bold text-white'>Timeline: </span> 3 months</p>
