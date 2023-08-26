@@ -1,14 +1,15 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
     <div className='bg-gray-900 '>
       <footer className="flex flex-col space-y-10 justify-center">
 
-<nav className="flex justify-center flex-wrap text-white text-xl font-extrabold gap-40">
-    <a className="hover:text-gray-900" href="#">Terms and Conditions</a>
-    <a className="hover:text-gray-900" href="#">Privacy Policy</a>
-    <a className="hover:text-gray-900" href="#">About Us</a>
+<nav className="flex justify-center flex-wrap text-gray-400 text-xl font-extrabold gap-40">
+    <Link href="terms" className='hover:text-white'> Terms and Conditions </Link>
+    <Link href="privacy" className='hover:text-white'> Privacy Policy </Link>
+    <Link href="" className='hover:text-white'> About US </Link>
 </nav>
 
 <div className="flex justify-center space-x-5">
