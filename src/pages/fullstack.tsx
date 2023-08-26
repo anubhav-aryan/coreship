@@ -7,7 +7,7 @@ const fullstack = () => {
     <div>
       <Header />
       <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-24 mx-auto bg-gray-900">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <img
               alt="ecommerce"
@@ -111,121 +111,134 @@ const fullstack = () => {
           </div>
         </div>
       </section>
-      {/* --------------------------------------------------------------------------------------------- */}
-      <section className="text-white bg-gray-900">
-        <div className="container px-5 pb-24 mx-auto">
-          <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-left">
-            <p className="leading-relaxed text-3xl font-bold">
-              Course Syllabus:{" "}
-            </p>
-            <p className="leading-relaxed text-2xl font-bold pt-6">
-              Month 1 : FRONT END{" "}
-            </p>
-            <ul
-              role="list"
-              className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
-            >
-              <li>Introduction to HTML, CSS and JavaScript.</li>
-              <li>
-                Familiarizing with Bootstrap CSS, Tailwind CSS and more about
-                JavaScript
-              </li>
-              <li>
-                (Advanced Front-end concepts) Front end Libraries: React,
-                Angular and Vue js
-              </li>
-              <li>
-                (Advanced Front-end concepts) React js and Vue js User
-                Interfaces
-              </li>
-            </ul>
-            <p className="leading-relaxed text-2xl font-bold pt-6">Projects:</p>
-            <ul
-              role="list"
-              className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
-            >
-              <li>
-                A Personal Portfolio website using HTML, CSS and Bootstrap CSS
-              </li>
-            </ul>
-            <p className="leading-relaxed text-2xl font-bold pt-6">
-              Assignments:
-            </p>
-            <ul
-              role="list"
-              className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
-            >
-              <li>Generating Randomness in Dice Games</li>
-              <li>Sample User Interfaces using Vue js</li>
-            </ul>
-            <p className="leading-relaxed text-2xl font-bold pt-6">
-              Month 2 : BACK END
-            </p>
-            <ul
-              role="list"
-              className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
-            >
-              <li>
-                Which is the preferable language? Node js, Python, Ruby, PHP, Go
-              </li>
-              <li>Database Fundamentals - MySQL, PostgreSQL, NoSQL</li>
-              <li>
-                Working with databases - MongoDB; Django Framework using Python
-              </li>
-              <li>
-                API development and their importance - Implementing Restful APIs
-              </li>
-            </ul>
-            <p className="leading-relaxed text-2xl font-bold pt-6">
-              Assignments:
-            </p>
-            <ul
-              role="list"
-              className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
-            >
-              <li>Incorporate API into your portfolio website</li>
-            </ul>
-            <p className="leading-relaxed text-2xl font-bold pt-6">Month 3</p>
-            <ul
-              role="list"
-              className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
-            >
-              <li>
-                Full Stack Web Development - Fundamental Concepts - Data Flow,
-                User Authentication and Authorization
-              </li>
-              <li>
-                Integrating Front End and Back End Concepts - Understanding Git
-                and GitHub
-              </li>
-              <li>
-                Website Deployment - Cloud Platforms - Introduction to Cloud
-                Service: AWS, Azure or GCP
-              </li>
-              <li>Learning Testing and Debugging</li>
-            </ul>
-            <p className="leading-relaxed text-2xl font-bold pt-6">
-              Assignments:
-            </p>
-            <ul
-              role="list"
-              className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
-            >
-              <li>Build your Own Website!</li>
-              <li>Optimization of website performance</li>
-            </ul>
+      {/* ------------------------------------------Content--------------------------------------------------- */}
+      <div className="">
+        <section className="text-white bg-gray-900">
+          <div className="bg-gray-900 ">
+            <div className="container px-5 pb-24 mx-auto">
+              <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-left border-solid border-white border-2 rounded-3xl px-14 py-14 bg-slate-700">
+                <p className="leading-relaxed text-3xl font-bold">
+                  Course Syllabus:{" "}
+                </p>
+                <p className="leading-relaxed text-2xl font-bold pt-6">
+                  Month 1 : FRONT END{" "}
+                </p>
+                <ul
+                  role="list"
+                  className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
+                >
+                  <li>Introduction to HTML, CSS and JavaScript.</li>
+                  <li>
+                    Familiarizing with Bootstrap CSS, Tailwind CSS and more
+                    about JavaScript
+                  </li>
+                  <li>
+                    (Advanced Front-end concepts) Front end Libraries: React,
+                    Angular and Vue js
+                  </li>
+                  <li>
+                    (Advanced Front-end concepts) React js and Vue js User
+                    Interfaces
+                  </li>
+                </ul>
+                <p className="leading-relaxed text-2xl font-bold pt-6">
+                  Projects:
+                </p>
+                <ul
+                  role="list"
+                  className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
+                >
+                  <li>
+                    A Personal Portfolio website using HTML, CSS and Bootstrap
+                    CSS
+                  </li>
+                </ul>
+                <p className="leading-relaxed text-2xl font-bold pt-6">
+                  Assignments:
+                </p>
+                <ul
+                  role="list"
+                  className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
+                >
+                  <li>Generating Randomness in Dice Games</li>
+                  <li>Sample User Interfaces using Vue js</li>
+                </ul>
+                <p className="leading-relaxed text-2xl font-bold pt-6">
+                  Month 2 : BACK END
+                </p>
+                <ul
+                  role="list"
+                  className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
+                >
+                  <li>
+                    Which is the preferable language? Node js, Python, Ruby,
+                    PHP, Go
+                  </li>
+                  <li>Database Fundamentals - MySQL, PostgreSQL, NoSQL</li>
+                  <li>
+                    Working with databases - MongoDB; Django Framework using
+                    Python
+                  </li>
+                  <li>
+                    API development and their importance - Implementing Restful
+                    APIs
+                  </li>
+                </ul>
+                <p className="leading-relaxed text-2xl font-bold pt-6">
+                  Assignments:
+                </p>
+                <ul
+                  role="list"
+                  className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
+                >
+                  <li>Incorporate API into your portfolio website</li>
+                </ul>
+                <p className="leading-relaxed text-2xl font-bold pt-6">
+                  Month 3
+                </p>
+                <ul
+                  role="list"
+                  className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
+                >
+                  <li>
+                    Full Stack Web Development - Fundamental Concepts - Data
+                    Flow, User Authentication and Authorization
+                  </li>
+                  <li>
+                    Integrating Front End and Back End Concepts - Understanding
+                    Git and GitHub
+                  </li>
+                  <li>
+                    Website Deployment - Cloud Platforms - Introduction to Cloud
+                    Service: AWS, Azure or GCP
+                  </li>
+                  <li>Learning Testing and Debugging</li>
+                </ul>
+                <p className="leading-relaxed text-2xl font-bold pt-6">
+                  Assignments:
+                </p>
+                <ul
+                  role="list"
+                  className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
+                >
+                  <li>Build your Own Website!</li>
+                  <li>Optimization of website performance</li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-      {/* --------------------------------------------------------------------------------------------- */}
+        </section>
+      </div>
 
-      <div className="w-full overflow-x-auto bg-gray-900 pb-16">
-        <div className="overflow-hidden min-w-max">
-          <div className="grid grid-cols-4 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
+      {/* -----------------------------------------Table---------------------------------------------------- */}
+      <div className="bg-gray-900 flex justify-center items-center pb-28">
+      <div className="container bg-gray-900 ">
+        <div className="">
+          <div className="grid grid-cols-2 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
             <div className="flex items-center">Enrollment Benefits</div>
             <div>OROM</div>
           </div>
-          <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+          <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
             <div className="text-gray-500 dark:text-gray-400">
               Project Based Learning
             </div>
@@ -247,7 +260,7 @@ const fullstack = () => {
               </svg>
             </div>
           </div>
-          <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+          <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
             <div className="text-gray-500 dark:text-gray-400">
               Indutrial Level Experience
             </div>
@@ -269,7 +282,7 @@ const fullstack = () => {
               </svg>
             </div>
           </div>
-          <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+          <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
             <div className="text-gray-500 dark:text-gray-400">
               Job Ready Portfolio
             </div>
@@ -291,7 +304,7 @@ const fullstack = () => {
               </svg>
             </div>
           </div>
-          <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+          <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
             <div className="text-gray-500 dark:text-gray-400">
               E-commerce UI pre-order
             </div>
@@ -314,6 +327,7 @@ const fullstack = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </div>
