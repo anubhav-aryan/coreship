@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
+
 const Coursessection = () => {
   return (
     <div>
@@ -13,6 +16,7 @@ const Coursessection = () => {
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+                <Link href="fullstack">
                 <Image
                   src="/course1.svg"
                   alt="course1"
@@ -20,10 +24,12 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+              <Link href="appdev">
                 <Image
                   src="/course2.svg"
                   alt="course2"
@@ -31,10 +37,12 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+              <Link href="cloudcomputing">
                 <Image
                   src="/course3.svg"
                   alt="course3"
@@ -42,10 +50,12 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+              <Link href="aiml">
                 <Image
                   src="/course4.svg"
                   alt="course4"
@@ -53,10 +63,12 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+              <Link href="dsa">
                 <Image
                   src="/course5.svg"
                   alt="course5"
@@ -64,10 +76,12 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+              <Link href="vlsi">
                 <Image
                   src="/course6.svg"
                   alt="course6"
@@ -75,10 +89,12 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+              <Link href="uiux">
                 <Image
                   src="/course7.svg"
                   alt="course7"
@@ -86,10 +102,12 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+              <Link href="dataanalytics">
                 <Image
                   src="/course8.svg"
                   alt="course8"
@@ -97,10 +115,12 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
+              <Link href="datascience">
                 <Image
                   src="/course9.svg"
                   alt="course9"
@@ -108,6 +128,7 @@ const Coursessection = () => {
                   height={500}
                   className="hover:drop-shadow-2xl"
                 />
+                </Link>
               </div>
             </div>
           </div>
