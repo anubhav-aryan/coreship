@@ -50,7 +50,7 @@ const privacy = () => {
                 loss, misuse, alteration, or destruction.
               </li>
               <li>
-                Children's Privacy Our services are not designed for, and do not
+                Children&apos;s Privacy Our services are not designed for, and do not
                 target, children under the age of 13. We do not knowingly
                 collect personal information from children under the age of 13.
               </li>

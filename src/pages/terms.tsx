@@ -18,9 +18,9 @@ const terms = () => {
             className="marker:text-sky-400 list-decimal pl-5 text-slate-400 pt-8"
           >
             <li>
-              Acceptance of Terms By using this educational website (the
-              "Site"), a service of OROM Corp ("we", "us"), you agree to be
-              bound by these Terms and Conditions ("Terms"), all applicable laws
+              Acceptance of Terms By using this educational website (&quot;the
+              Site&quot;), a service of OROM Corp (&quot;we&quot;, &quot;us&quot;), you agree to be
+              bound by these Terms and Conditions (&quot;Terms&quot;), all applicable laws
               and regulations, and agree that you are responsible for compliance
               with any applicable local laws.
             </li>
@@ -34,7 +34,7 @@ const terms = () => {
               non-commercial); attempt to decompile or reverse engineer any
               software contained on the Site; remove any copyright or other
               proprietary notations from the materials; or transfer the
-              materials to another person or "mirror" the materials on any other
+              materials to another person or &quot;mirror&quot; the materials on any other
               server.
             </li>
             <li>

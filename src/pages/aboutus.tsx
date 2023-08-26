@@ -23,10 +23,10 @@ const aboutus = () => {
         </h2>
         <div className='w-3/4 md:w-3/4 lg:w-1/3 pt-12 text-lg md:text-xl lg:text-2xl text-left pb-12'>
         <p className='mb-4'>We are dedicated to empowering college students with the knowledge and skills they need to excel in the digital world.</p>
-        <p className=' mb-4'>At OROM, we understand the importance of practical experience and real-world application. That's why our courses not only provide 
+        <p className=' mb-4'>At OROM, we understand the importance of practical experience and real-world application. That&apos;s why our courses not only provide 
          comprehensive theoretical knowledge but also offer guaranteed internships after completion.</p>
         <p className='mb-4'>We believe that hands-on experience is the key to bridging the gap between academia and industry, giving our students a competitive
-         edge in today's job market.</p>
+         edge in today&apos;s job market.</p>
         <p className='mb-4'>Our team of experienced instructors comprises industry professionals and experts who are passionate about sharing their knowledge and expertise. 
         They have carefully designed our courses to ensure that they are up-to-date with the latest industry trends and technologies. 
         With a strong emphasis on practical learning, we provide students with the tools and resources they need to succeed in their chosen fields.</p>
