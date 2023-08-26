@@ -189,35 +189,22 @@ const appdevelopment = () => {
                   <li>Create a Weather App using OpenWeatherMap API</li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 3
+                  Month 3 : OPTIMIZATION AND DEPLOYMENT
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
                   <li>
-                    Full Stack Web Development - Fundamental Concepts - Data
-                    Flow, User Authentication and Authorization
+                  Advanced Topics: State Management, Navigation Patterns, and Animations
                   </li>
                   <li>
-                    Integrating Front End and Back End Concepts - Understanding
-                    Git and GitHub
+                   Performance Optimization Techniques
                   </li>
                   <li>
-                    Website Deployment - Cloud Platforms - Introduction to Cloud
-                    Service: AWS, Azure or GCP
+                  Industry Standard Tools: Xcode and Android Studio
                   </li>
-                  <li>Learning Testing and Debugging</li>
-                </ul>
-                <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Assignments:
-                </p>
-                <ul
-                  role="list"
-                  className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
-                >
-                  <li>Build your Own Website!</li>
-                  <li>Optimization of website performance</li>
+                  <li>Deployment: App Signing, Submission Guidelines, and Updates</li>
                 </ul>
               </div>
             </div>
@@ -227,7 +214,10 @@ const appdevelopment = () => {
 
       {/* -----------------------------------------Table---------------------------------------------------- */}
       <div className="bg-gray-900 flex justify-center items-center pb-28">
-        <div className="container bg-gray-900 ">
+        <div className="container bg-gray-900 w-1/2 ">
+        <h2 className="text-3xl font-bold text-center text-white py-8">
+         Why Choose Us?
+        </h2>
           <div className="">
             <div className="grid grid-cols-2 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
               <div className="flex items-center">Enrollment Benefits</div>
@@ -280,28 +270,6 @@ const appdevelopment = () => {
             <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
               <div className="text-gray-500 dark:text-gray-400">
                 Job Ready Portfolio
-              </div>
-              <div>
-                <svg
-                  className="w-3 h-3 text-green-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 16 12"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5.917 5.724 10.5 15 1.5"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-              <div className="text-gray-500 dark:text-gray-400">
-                E-commerce UI pre-order
               </div>
               <div>
                 <svg
