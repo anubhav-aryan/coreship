@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Components/Common/Header";
 import Footer from "./Components/Common/Footer";
+import Link from "next/link";
 
 const appdevelopment = () => {
   return (
@@ -86,27 +87,26 @@ const appdevelopment = () => {
                 Covering both iOS and Android, understand the nuances of mobile
                 development and design.
               </p>
-              <p className="leading-relaxed pt-2"><span className='text-bold text-white'>Timeline: </span> 3 months</p>
+              <p className="leading-relaxed pt-2">
+                <span className="text-bold text-white">Timeline: </span> 3
+                months
+              </p>
               <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5"></div>
               <div className="flex">
                 <span className="title-font font-medium text-2xl text-white">
                   Rs 1699
                 </span>
-                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Buy Now
-                </button>
-                <button className="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
+                <div className="ml-auto">
+                  <Link
+                    href={
+                      "https://docs.google.com/forms/d/e/1FAIpQLSd-njbuH5Wcc45y_CDr_zRNz1RUZvWJhikAyEVwpnD1ckksaw/viewform"
+                    }
                   >
-                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-                  </svg>
-                </button>
+                    <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                      Buy Now
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -129,15 +129,9 @@ const appdevelopment = () => {
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
                   <li>Mobile Development Landscape: iOS vs. Android</li>
-                  <li>
-                     Introduction to Swift for iOS and Kotlin for Android
-                  </li>
-                  <li>
-                   Building First App: Hello World
-                  </li>
-                  <li>
-                  App Lifecycle, User Interface, and Navigation
-                  </li>
+                  <li>Introduction to Swift for iOS and Kotlin for Android</li>
+                  <li>Building First App: Hello World</li>
+                  <li>App Lifecycle, User Interface, and Navigation</li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
                   Projects:
@@ -146,9 +140,7 @@ const appdevelopment = () => {
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
-                  <li>
-                    Basic Calculator App  
-                  </li>
+                  <li>Basic Calculator App</li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
                   Assignments:
@@ -167,15 +159,14 @@ const appdevelopment = () => {
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
+                  <li>Accessing Device Features: Camera, GPS</li>
                   <li>
-                  Accessing Device Features: Camera, GPS
+                    Storing Data: Databases, Shared Preferences, and Core Data
                   </li>
-                  <li>Storing Data: Databases, Shared Preferences, and Core Data</li>
+                  <li>Networking in Mobile Apps: API Calls, GraphQL</li>
                   <li>
-                  Networking in Mobile Apps: API Calls, GraphQL
-                  </li>
-                  <li>
-                  Deploying to App Store and Play Store, App Monetization Strategies
+                    Deploying to App Store and Play Store, App Monetization
+                    Strategies
                   </li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
@@ -196,15 +187,14 @@ const appdevelopment = () => {
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
                   <li>
-                  Advanced Topics: State Management, Navigation Patterns, and Animations
+                    Advanced Topics: State Management, Navigation Patterns, and
+                    Animations
                   </li>
+                  <li>Performance Optimization Techniques</li>
+                  <li>Industry Standard Tools: Xcode and Android Studio</li>
                   <li>
-                   Performance Optimization Techniques
+                    Deployment: App Signing, Submission Guidelines, and Updates
                   </li>
-                  <li>
-                  Industry Standard Tools: Xcode and Android Studio
-                  </li>
-                  <li>Deployment: App Signing, Submission Guidelines, and Updates</li>
                 </ul>
               </div>
             </div>
@@ -215,9 +205,9 @@ const appdevelopment = () => {
       {/* -----------------------------------------Table---------------------------------------------------- */}
       <div className="bg-gray-900 flex justify-center items-center pb-28">
         <div className="container bg-gray-900 w-1/2 ">
-        <h2 className="text-3xl font-bold text-center text-white py-8">
-         Why Choose Us?
-        </h2>
+          <h2 className="text-3xl font-bold text-center text-white py-8">
+            Why Choose Us?
+          </h2>
           <div className="">
             <div className="grid grid-cols-2 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
               <div className="flex items-center">Enrollment Benefits</div>
@@ -290,27 +280,27 @@ const appdevelopment = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">
-              Guaranteed Internship
+              <div className="text-gray-500 dark:text-gray-400">
+                Guaranteed Internship
+              </div>
+              <div>
+                <svg
+                  className="w-3 h-3 text-green-500"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </div>
             </div>
-            <div>
-              <svg
-                className="w-3 h-3 text-green-500"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 16 12"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5.917 5.724 10.5 15 1.5"
-                />
-              </svg>
-            </div>
-          </div>
           </div>
         </div>
       </div>
