@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Components/Common/Header";
 import Footer from "./Components/Common/Footer";
 
-const fullstack = () => {
+const appdevelopment = () => {
   return (
     <div>
       <Header />
@@ -12,14 +12,14 @@ const fullstack = () => {
             <img
               alt="ecommerce"
               className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="/software-engineer.svg"
+              src="/android-device.svg"
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 Coreship{" "}
               </h2>
               <h1 className="text-white text-3xl title-font font-medium mb-1">
-                Full Stack Web Development
+                App Development
               </h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
@@ -82,9 +82,9 @@ const fullstack = () => {
                 </span>
               </div>
               <p className="leading-relaxed">
-                Unlock the digital realm with this concise course, delving deep
-                into the essentials of web design and coding. Perfect for
-                beginners and those looking to refresh their skills.
+                Delve into the world of mobile apps with this hands-on course.
+                Covering both iOS and Android, understand the nuances of mobile
+                development and design.
               </p>
               <p className="leading-relaxed pt-2"><span className='text-bold text-white'>Timeline: </span> 3 months</p>
               <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5"></div>
@@ -122,24 +122,21 @@ const fullstack = () => {
                   Course Syllabus:{" "}
                 </p>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 1 : FRONT END{" "}
+                  Month 1 : BASIC CONCEPTS{" "}
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
-                  <li>Introduction to HTML, CSS and JavaScript.</li>
+                  <li>Mobile Development Landscape: iOS vs. Android</li>
                   <li>
-                    Familiarizing with Bootstrap CSS, Tailwind CSS and more
-                    about JavaScript
+                     Introduction to Swift for iOS and Kotlin for Android
                   </li>
                   <li>
-                    (Advanced Front-end concepts) Front end Libraries: React,
-                    Angular and Vue js
+                   Building First App: Hello World
                   </li>
                   <li>
-                    (Advanced Front-end concepts) React js and Vue js User
-                    Interfaces
+                  App Lifecycle, User Interface, and Navigation
                   </li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
@@ -150,8 +147,7 @@ const fullstack = () => {
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
                   <li>
-                    A Personal Portfolio website using HTML, CSS and Bootstrap
-                    CSS
+                    Basic Calculator App  
                   </li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
@@ -161,28 +157,25 @@ const fullstack = () => {
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
-                  <li>Generating Randomness in Dice Games</li>
-                  <li>Sample User Interfaces using Vue js</li>
+                  <li>Design a Splash Screen for an App</li>
+                  <li>Build a Note-taking App with Basic Features</li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 2 : BACK END
+                  Month 2 : ADVANCED CONCEPTS
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
                   <li>
-                    Which is the preferable language? Node js, Python, Ruby,
-                    PHP, Go
+                  Accessing Device Features: Camera, GPS
                   </li>
-                  <li>Database Fundamentals - MySQL, PostgreSQL, NoSQL</li>
+                  <li>Storing Data: Databases, Shared Preferences, and Core Data</li>
                   <li>
-                    Working with databases - MongoDB; Django Framework using
-                    Python
+                  Networking in Mobile Apps: API Calls, GraphQL
                   </li>
                   <li>
-                    API development and their importance - Implementing Restful
-                    APIs
+                  Deploying to App Store and Play Store, App Monetization Strategies
                   </li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
@@ -192,7 +185,8 @@ const fullstack = () => {
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
-                  <li>Incorporate API into your portfolio website</li>
+                  <li>Develop a To-Do List App with Data Persistence</li>
+                  <li>Create a Weather App using OpenWeatherMap API</li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
                   Month 3
@@ -232,111 +226,107 @@ const fullstack = () => {
       </div>
 
       {/* -----------------------------------------Table---------------------------------------------------- */}
-      
-      <div className="bg-gray-900 flex justify-center items-center pb-28 ">
-      <div className="container bg-gray-900 w-1/2">
-       <h2 className="text-3xl font-bold text-center text-white py-8">
-        Why Choose Us?
-       </h2>
-        <div className="">
-          <div className="grid grid-cols-2 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
-            <div className="flex items-center">Enrollment Benefits</div>
-            <div>OROM</div>
-          </div>
-          <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">
-              Project Based Learning
+      <div className="bg-gray-900 flex justify-center items-center pb-28">
+        <div className="container bg-gray-900 ">
+          <div className="">
+            <div className="grid grid-cols-2 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
+              <div className="flex items-center">Enrollment Benefits</div>
+              <div>OROM</div>
             </div>
-            <div>
-              <svg
-                className="w-3 h-3 text-green-500"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 16 12"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5.917 5.724 10.5 15 1.5"
-                />
-              </svg>
+            <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+              <div className="text-gray-500 dark:text-gray-400">
+                Project Based Learning
+              </div>
+              <div>
+                <svg
+                  className="w-3 h-3 text-green-500"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </div>
             </div>
-          </div>
-          <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">
-              Indutrial Level Experience
+            <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+              <div className="text-gray-500 dark:text-gray-400">
+                Indutrial Level Experience
+              </div>
+              <div>
+                <svg
+                  className="w-3 h-3 text-green-500"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </div>
             </div>
-            <div>
-              <svg
-                className="w-3 h-3 text-green-500"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 16 12"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5.917 5.724 10.5 15 1.5"
-                />
-              </svg>
+            <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+              <div className="text-gray-500 dark:text-gray-400">
+                Job Ready Portfolio
+              </div>
+              <div>
+                <svg
+                  className="w-3 h-3 text-green-500"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </div>
             </div>
-          </div>
-          <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">
-              Job Ready Portfolio
-            </div>
-            <div>
-              <svg
-                className="w-3 h-3 text-green-500"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 16 12"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5.917 5.724 10.5 15 1.5"
-                />
-              </svg>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">
-              E-commerce UI pre-order
-            </div>
-            <div>
-              <svg
-                className="w-3 h-3 text-green-500"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 16 12"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5.917 5.724 10.5 15 1.5"
-                />
-              </svg>
+            <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+              <div className="text-gray-500 dark:text-gray-400">
+                E-commerce UI pre-order
+              </div>
+              <div>
+                <svg
+                  className="w-3 h-3 text-green-500"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
       <Footer />
     </div>
   );
 };
 
-export default fullstack;
+export default appdevelopment;
