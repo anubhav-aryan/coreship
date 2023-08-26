@@ -1,6 +1,18 @@
 import React, { useEffect, useState } from "react";
 
-function AnimatedCounter({ target, time = 200000, start = 0, shouldAnimate }) {
+interface AnimatedCounterProps {
+  target: number;
+  time?: number;
+  start?: number;
+  shouldAnimate: boolean;
+}
+
+function AnimatedCounter({
+  target,
+  time = 200000,
+  start = 0,
+  shouldAnimate,
+}: AnimatedCounterProps) {
   const [current, setCurrent] = useState(start);
 
   useEffect(() => {
@@ -40,8 +52,8 @@ const Stats = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          const counterName = entry.target.dataset.counter;
-          if (entry.isIntersecting) {
+          const counterName = (entry.target as HTMLElement).dataset.counter;
+          if (entry.isIntersecting && counterName) {
             setAnimated((prevAnimated) => ({ ...prevAnimated, [counterName]: true }));
           }
         });
