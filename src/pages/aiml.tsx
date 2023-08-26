@@ -12,7 +12,7 @@ const aiml = () => {
             <img
               alt="ecommerce"
               className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="/android-device.svg"
+              src="/aiml.svg"
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
@@ -292,6 +292,28 @@ const aiml = () => {
                 </svg>
               </div>
             </div>
+            <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
+            <div className="text-gray-500 dark:text-gray-400">
+              Guaranteed Internship
+            </div>
+            <div>
+              <svg
+                className="w-3 h-3 text-green-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+            </div>
+          </div>
           </div>
         </div>
       </div>
