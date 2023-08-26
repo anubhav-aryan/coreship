@@ -1,20 +1,26 @@
 import React from 'react'
-import ReactTyped from "react-typed";
-
+import { TypeAnimation } from 'react-type-animation';
 
 const animationone = () => {
   return (
-    <div className='pb-8'>
-      <h1 className='text-blue-500 text-6xl font-extrabold'>
-        <ReactTyped
-          strings={["Web Development", "Cloud Computing", "DSA", "App Development", "AI/ML"]}
-          typeSpeed={100}
-          loop
-          backSpeed={50}
-          cursorChar="|"
-          showCursor={true}
-        />
-      </h1>
+    <div className='text-blue-600 text-3xl font-bold'>
+      <TypeAnimation
+      sequence={[
+        'Web Development',
+        1000, 
+        'Cloud Computing',
+        1000,
+        'Data Structures and Algorithm',
+        1000,
+        'VLSI',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
+
     </div>
   )
 }
