@@ -3,6 +3,7 @@ import Header from "./Components/Common/Header";
 import Coursessection from "./Components/Uncommon/Coursessection";
 import Covered from "./Components/Uncommon/Covered";
 import Herosection from "./Components/Uncommon/Herosection";
+import Stats from "./Components/Uncommon/Stats";
 
 
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <Herosection />
       <Coursessection />
+      <Stats />
       <Covered />
       <Footer />
     </div>
