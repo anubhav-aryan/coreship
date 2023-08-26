@@ -9,19 +9,19 @@ const aboutus = () => {
       <div className="h-full bg-gray-900">
         <Header />
         <div className="flex flex-col items-center mt-12 h-full bg-gray-900 text-white">
-        <h1 className="text-4xl font-bold text-center mb-8 text-pink-300">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-8 text-pink-300">
             The Purpose of
         </h1>
-        <h1 className="text-4xl font-bold text-center mb-8">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-8">
             OROM
         </h1>
-        <h2 className="text-4xl font-semibold text-center">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Learn. Develop. Excel. Intern.
         </h2>
-        <h2 className="text-3xl font-semibold text-center mt-12 text-pink-300">
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-center mt-12 text-pink-300">
             Our Story
         </h2>
-        <div className='w-1/3 pt-12 text-2xl text-left pb-12'>
+        <div className='w-3/4 md:w-3/4 lg:w-1/3 pt-12 text-lg md:text-xl lg:text-2xl text-left pb-12'>
         <p className='mb-4'>We are dedicated to empowering college students with the knowledge and skills they need to excel in the digital world.</p>
         <p className=' mb-4'>At OROM, we understand the importance of practical experience and real-world application. That's why our courses not only provide 
          comprehensive theoretical knowledge but also offer guaranteed internships after completion.</p>
