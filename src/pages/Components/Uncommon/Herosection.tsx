@@ -18,7 +18,7 @@ const Herosection = () => {
               </button>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 h-56">
+          <div className="lg:max-w-3xl lg:w-full md:w-1/2 w-5/6 h-56">
             <Image src="/brand.svg" alt="hero" width={800} height={800} />
           </div>
         </div>
@@ -35,7 +35,7 @@ const Herosection = () => {
       </section>
       <section className="text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-20 mx-auto">
-          <h1 className="text-4xl md:text-6xl lg:text-7xlfont-extrabold text-center text-white mb-20">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-center text-white mb-20">
             Welcome to <span className='text-[#cb808f]'>CORESHIP </span>
           </h1>
         </div>
