@@ -83,10 +83,10 @@ const productmgmt = () => {
                 </span>
               </div>
               <p className="leading-relaxed">
-              Product management  involves working closely with  company's product & management team. 
+              Product management  involves working closely with  company{'\''}s product & management team. 
               It will include tasks such as market research, competitive analysis, defining product
               requirements, collaborating with designers and engineers, and assisting in the planning and 
-              execution of product launches.
+              execution of product launches.
               </p>
               <p className="leading-relaxed pt-2">
                 <span className="text-bold text-white">Timeline: </span> 3
