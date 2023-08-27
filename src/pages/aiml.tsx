@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Components/Common/Header";
 import Footer from "./Components/Common/Footer";
+import Link from "next/link";
 
 const aiml = () => {
   return (
@@ -95,8 +96,8 @@ const aiml = () => {
                 <span className="title-font font-medium text-2xl text-white">
                   Rs 1699
                 </span>
-                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Buy Now
+                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded">
+                Buy Now 
                 </button>
                 <button className="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                   <svg
