@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Animationone from "./Animationone";
+import Link from "next/link";
 
 const Herosection = () => {
   return (
@@ -13,9 +14,11 @@ const Herosection = () => {
             </h1>
             <Animationone />
             <div className="flex justify-center pt-11">
+              <Link href='#courses'>
               <button className="inline-flex text-white font-bold text-xl md:text-2xl lg:text-3xl bg-indigo-500 border-0 py-3 px-6 mb-8 focus:outline-none hover:bg-indigo-600 rounded-2xl">
                 Start Here
               </button>
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-3xl lg:w-full md:w-1/2 w-5/6 h-56">
