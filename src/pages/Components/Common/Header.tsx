@@ -11,15 +11,17 @@ const Header = () => {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
-  
+
   return (
-    <div className="top-8">
+    <div className="">
       <nav className="bg-gray-900 w-full z-20 left-0 pb-16">
-        <div className="w-full flex flex-wrap items-center justify-around pl-40 pr-40 mx-auto p-4">
+        <div className="w-full flex flex-wrap items-center justify-around mx-auto p-4">
           <Link href="/aboutus">
             <Image src="/logocoreship.png" width={100} height={100} alt="" />
           </Link>
-          <div className="flex md:order-2 items-center"> {/* Wrap buttons in a flex container */}
+          <div className="flex md:order-2 items-center">
+            {" "}
+            {/* Wrap buttons in a flex container */}
             <Link href="/#courses">
               <button
                 type="button"
@@ -62,31 +64,31 @@ const Header = () => {
           >
             <ul className="gap-60 flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-2xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   onClick={closeMenu}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/#courses"
                   className="text-2xl py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   onClick={closeMenu}
                 >
                   Courses
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/#features"
                   className="text-2xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   onClick={closeMenu}
                 >
                   Features
-                </a>
+                </Link>
               </li>
               <li>
                 <button
