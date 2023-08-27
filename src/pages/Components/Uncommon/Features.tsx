@@ -27,7 +27,7 @@ const Features: React.FC<FeaturesProps> = () => {
         </div>
         <div className="w-1/2 flex flex-col justify-center">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-blue-900 mb-2 md:mb-4 ">
-            <span className="text-pink-300">Hands-on</span> Training
+            <span className="text-pink-400">Hands-on</span> Training
           </h2>
           <p className="text-sm md:text-lg lg:text-xl font-bold text-gray-800">
             You will acquire the knowledge of industry working and experience to
@@ -41,8 +41,8 @@ const Features: React.FC<FeaturesProps> = () => {
       {/* Second Rectangle */}
       <div className="flex bg-[#d9d9d9] rounded-[25px] w-[90%] md:w-[70%] lg:w-[40%] py-8 px-4 mb-8 justify-center">
         <div className="w-1/2 flex flex-col justify-center">
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-pink-300 text-center font-bold mb-4">
-            Guided Projects and Assignments
+          <h2 className="text-xl md:text-2xl lg:text-3xl text-pink-400 text-center font-bold mb-4">
+            Guided Projects and <span className="text-blue-900">Assignments</span>
           </h2>
           <p className="text-sm md:text-lg lg:text-xl font-bold text-center text-gray-800">
             For you to understand the value of teamwork and how the corporate
@@ -70,8 +70,8 @@ const Features: React.FC<FeaturesProps> = () => {
           />
         </div>
         <div className="w-1/2 flex flex-col justify-center">
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-center text-pink-300 font-bold mb-12">
-            Certificate of Completion
+          <h2 className="text-xl md:text-2xl lg:text-3xl text-center text-pink-400 font-bold mb-12">
+            Certificate of <span className="text-blue-900">Completion</span>
           </h2>
           <p className="text-sm md:text-lg lg:text-xl text-center font-bold text-gray-800 mt-12">
             To add 5 stars to your resume.
@@ -91,8 +91,8 @@ const Features: React.FC<FeaturesProps> = () => {
           />
         </div>
         <div className="w-1/2 flex flex-col justify-center">
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-center text-pink-300 font-bold">
-            Guaranteed of Internship
+          <h2 className="text-xl md:text-2xl lg:text-3xl text-center text-pink-400 font-bold">
+            Guaranteed of <span className="text-blue-900">Internship</span>
           </h2>
           <p className="text-sm md:text-lg lg:text-xl text-center font-bold text-gray-800 mt-12">
             Secure your involvement in a genuine internship opportunity that
