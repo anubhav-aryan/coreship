@@ -5,7 +5,7 @@ type FeaturesProps = {};
 
 const Features: React.FC<FeaturesProps> = () => {
   return (
-    <div className="flex flex-col items-center bg-gray-900 text-white py-16">
+    <div id='features' className="flex flex-col items-center bg-gray-900 text-white py-16">
       {/* First Rectangle */}
       <div className="flex justify-start bg-[#d9d9d9] rounded-[25px] w-[90%] md:w-[70%] lg:w-[40%] py-8 px-4 mb-8 ">
         <div className="w-1/2 pr-8">

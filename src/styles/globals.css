@@ -5,3 +5,13 @@
 .html {
   scroll-behavior: smooth;
 }
+
+canvas {
+  width: 10px !important;
+  height: 10px !important;
+
+}
+
+#tsparticles {
+  position: relative;
+}
