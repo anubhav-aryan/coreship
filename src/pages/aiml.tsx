@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Components/Common/Header";
 import Footer from "./Components/Common/Footer";
-import Link from "next/link";
 
 const aiml = () => {
   return (
@@ -96,8 +95,8 @@ const aiml = () => {
                 <span className="title-font font-medium text-2xl text-white">
                   Rs 1699
                 </span>
-                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded">
-                Buy Now 
+                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                  Buy Now
                 </button>
                 <button className="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                   <svg
@@ -294,27 +293,27 @@ const aiml = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">
-              Guaranteed Internship
+              <div className="text-gray-500 dark:text-gray-400">
+                Guaranteed Internship
+              </div>
+              <div>
+                <svg
+                  className="w-3 h-3 text-green-500"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </div>
             </div>
-            <div>
-              <svg
-                className="w-3 h-3 text-green-500"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 16 12"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5.917 5.724 10.5 15 1.5"
-                />
-              </svg>
-            </div>
-          </div>
           </div>
         </div>
       </div>
