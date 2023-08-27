@@ -17,7 +17,7 @@ const Header = () => {
               <Link href="/">
               <button
                 type="button"
-                className="text-white bg-blue-700 hover:bg-blue-800 px-4 py-2 rounded-md"
+                className="text-white bg-blue-700 hover:bg-blue-800 px-8 py-2 rounded-md"
               >
                 Register
               </button>
