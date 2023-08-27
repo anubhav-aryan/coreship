@@ -10,7 +10,7 @@ const animationone = () => {
         1000, 
         'Cloud Computing',
         1000,
-        'Data Structures and Algorithms',
+        'DSA',
         1000,
         'VLSI',
         1000
