@@ -87,8 +87,8 @@ const Stats = () => {
                 <h4 className="font-bold text-6xl text-pink-600 flex-grow mb-0">
                   <AnimatedCounter
                     target={500}
-                    time={1000}
-                    start={0}
+                    time={100}
+                    start={492}
                     shouldAnimate={animated.students}
                   />
                   +
@@ -106,7 +106,7 @@ const Stats = () => {
                 <h4 className="font-bold text-6xl text-pink-600 flex-grow mb-0">
                   <AnimatedCounter
                     target={10}
-                    time={500}
+                    time={100}
                     start={0}
                     shouldAnimate={animated.mentors}
                   />
@@ -125,8 +125,8 @@ const Stats = () => {
                 <h4 className="font-bold text-6xl text-pink-600 flex-grow mb-0">
                   <AnimatedCounter
                     target={400}
-                    time={1000}
-                    start={0}
+                    time={100}
+                    start={390}
                     shouldAnimate={animated.internships}
                   />
                   +
@@ -144,7 +144,7 @@ const Stats = () => {
                 <h4 className="font-bold text-6xl text-pink-600 flex-grow mb-0">
                   <AnimatedCounter
                     target={6}
-                    time={500}
+                    time={100}
                     start={0}
                     shouldAnimate={animated.bootcamps}
                   />

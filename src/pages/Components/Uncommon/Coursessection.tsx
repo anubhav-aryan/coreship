@@ -132,7 +132,7 @@ const Coursessection = () => {
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
-                <Link href="dataanalytics">
+                <Link href="productmgmt">
                   <Image
                     src="/pROJECT.svg"
                     alt="course8"
