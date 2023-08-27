@@ -1,9 +1,8 @@
 import React from "react";
 import Header from "./Components/Common/Header";
 import Footer from "./Components/Common/Footer";
-import Link from "next/link";
 
-const aiml = () => {
+const productmgmt = () => {
   return (
     <div>
       <Header />
@@ -12,15 +11,15 @@ const aiml = () => {
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <img
               alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="/aiml.svg"
+              className="lg:w-2/5 w-full lg:h-auto h-64 object-cover object-center rounded"
+              src="/prodm.png"
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 Coreship{" "}
               </h2>
               <h1 className="text-white text-3xl title-font font-medium mb-1">
-                Artificial Intelligence and Machine Learning
+                Product Management
               </h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
@@ -83,9 +82,10 @@ const aiml = () => {
                 </span>
               </div>
               <p className="leading-relaxed">
-                Unleash the power of AI and Machine Learning. Learn to build
-                smart systems that learn from data, make predictions, and
-                automate tasks.
+              Product management  involves working closely with  company's product & management team. 
+              It will include tasks such as market research, competitive analysis, defining product
+              requirements, collaborating with designers and engineers, and assisting in the planning and 
+              execution of product launches.
               </p>
               <p className="leading-relaxed pt-2">
                 <span className="text-bold text-white">Timeline: </span> 3
@@ -96,17 +96,21 @@ const aiml = () => {
                 <span className="title-font font-medium text-2xl text-white">
                   Rs 1699
                 </span>
-                <div className="ml-auto">
-                  <Link
-                    href={
-                      "https://docs.google.com/forms/d/e/1FAIpQLSd-njbuH5Wcc45y_CDr_zRNz1RUZvWJhikAyEVwpnD1ckksaw/viewform"
-                    }
+                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                  Buy Now
+                </button>
+                <button className="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+                  <svg
+                    fill="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
                   >
-                    <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                      Buy Now
-                    </button>
-                  </Link>
-                  </div>
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
@@ -122,88 +126,74 @@ const aiml = () => {
                   Course Syllabus:{" "}
                 </p>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 1: Foundations of AI and ML
+                  Month 1: Introduction to Product Management
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
-                  <li>Week 1: Introduction to AI and ML</li>
+                  <li> Week 1:What is Product Management</li>
                   <li>
-                    Understanding the basics of Artificial Intelligence and
-                    Machine Learning.
+                   Roles and Responsibilities of a product manager.
                   </li>
-                  <li>Week 2: Data Preprocessing and Exploration</li>
+                  <li>Week 2:Market Research and Customer Understanding.</li>
                   <li>
-                    Preparing data for analysis, handling missing values, and
-                    exploring datasets.
+                   Identifying target markets and customer segments.
+                   Conducting market research and gathering customer insights.
                   </li>
-                  <li>Week 3: Supervised Learning Algorithms</li>
                   <li>
-                    Exploring regression and classification algorithms such as
-                    Linear Regression, Decision Trees, and k-Nearest Neighbors.
+                    Week 3:Idea Generation and Validation:
+                 </li>
+                  <li> Brainstorming and ideation techniques.
+                  Validating ideas through prototypes, MVPs, and user feedback.
                   </li>
-                  <li>Week 4: Unsupervised Learning Algorithms</li>
+                  <li>Week 4: Product Strategy:</li>
                   <li>
-                    Introduction to clustering and dimensionality reduction
-                    techniques like K-Means and Principal Component Analysis
-                    (PCA).
+                  Defining product vision and goals.
+                  Creating a roadmap and prioritization frameworks.
                   </li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 2: Advanced Topics in AI/ML
+                  Month 2: Advanced Product Management Topics
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
-                  <li>Week 5: Neural Networks and Deep Learning</li>
+                  <li>Week 5: Product Metrics and Analytics</li>
                   <li>
-                    Understanding neural networks, backpropagation, and building
-                    deep learning models.
+                  Identifying and tracking key performance indicators (KPIs).
+                  Data-driven decision making.
                   </li>
-                  <li>Week 6: Convolutional Neural Networks (CNNs)</li>
+                  <li>Week 6: Go-to-Market Strategy</li>
                   <li>
-                    Creating image recognition systems using CNNs and transfer
-                    learning.
+                  Launch planning and execution.
+                  Marketing, sales, and distribution strategies.</li>
+                  <li>Week 7: Product Lifecycle Management</li>
+                  <li>
+                  Managing products from introduction to retirement.
+                  Iterative improvements and updates.
                   </li>
-                  <li>Week 7: Recurrent Neural Networks (RNNs)</li>
+                  <li>Week 9: Leadership and Team Management</li>
                   <li>
-                    Building sequence models for tasks like text generation and
-                    sentiment analysis.
-                  </li>
-                  <li>Week 8: Natural Language Processing (NLP)</li>
-                  <li>
-                    Exploring language processing techniques, including
-                    tokenization, word embeddings, and text classification.
+                  Leading product teams and fostering collaboration.
                   </li>
                 </ul>
                 <p className="leading-relaxed text-2xl font-bold pt-6">
-                  Month 3: Applied AI/ML and Project
+                  Month 3: Application of Product Management Concepts
                 </p>
                 <ul
                   role="list"
                   className="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-400 pt-8"
                 >
-                  <li>Week 9: Model Evaluation and Hyperparameter Tuning</li>
+                  <li>Week 9: Career Development </li>
                   <li>
-                    Measuring model performance, cross-validation, and
-                    optimizing hyperparameters.
+                    Building a product management career path.
+                    Interview strategies and resume building
                   </li>
-                  <li>Week 10: Deployment and Ethics in AI/ML</li>
+                  <li>Week 10: Application of Concepts Learnt</li>
                   <li>
-                    Deploying models in production and considering ethical
-                    considerations in AI/ML.
-                  </li>
-                  <li>Week 11: Reinforcement Learning</li>
-                  <li>
-                    Introduction to reinforcement learning principles and
-                    applications.
-                  </li>
-                  <li>Week 12: Capstone Project</li>
-                  <li>
-                    Applying AI/ML concepts to a real-world project. From data
-                    preprocessing to model deployment.
+                    Further enhancing and polishing skills learnt previously in the programme.
                   </li>
                 </ul>
               </div>
@@ -319,4 +309,4 @@ const aiml = () => {
   );
 };
 
-export default aiml;
+export default productmgmt;
