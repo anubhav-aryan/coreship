@@ -1,7 +1,7 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
+import { useState } from 'react';
 
-const Footer = () => {
   return (
     <div className='bg-gray-900 '>
 <section className="bg-gray-900">
