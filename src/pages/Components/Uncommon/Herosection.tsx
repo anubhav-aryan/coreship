@@ -25,7 +25,7 @@ const Herosection = () => {
       </section>
       <section className="text-gray-400 bg-gray-900 body-font ">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="text-4xl md:text-6xl lg:text-7xlfont-bold text-center text-[#cb808f] mt-20 mb-20">
+          <h1 className="text-4xl md:text-6xl lg:text-7xlfont-bold text-center text-[#cb808f] mt-20">
             powerful alone.
             <p className="sm:block mt-12" >
             better together.
@@ -33,13 +33,13 @@ const Herosection = () => {
           </h1>
         </div>
       </section>
-      <section className="text-gray-400 bg-gray-900 body-font">
+      {/* <section className="text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-20 mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-center text-white mb-20">
             Welcome to <span className='text-[#cb808f]'>CORESHIP </span>
           </h1>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
