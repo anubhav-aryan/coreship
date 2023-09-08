@@ -20,7 +20,7 @@ const productmgmt = () => {
                 Coreship{" "}
               </h2>
               <h1 className="text-white text-3xl title-font font-medium mb-1">
-                Product Management
+                <Product></Product> Management
               </h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
