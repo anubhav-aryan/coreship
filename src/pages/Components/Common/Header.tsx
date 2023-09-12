@@ -59,7 +59,7 @@ const Header = () => {
           <div
             className={`${
               isMenuOpen ? "block" : "hidden"
-            } md:flex md:w-auto md:order-1 w-full`}
+            }  md:flex md:w-auto md:order-1 w-full`}
             id="mobile-menu"
           >
             <ul className="sm:gap-1 md:gap-2 lg:gap-36 flex flex-col text-right p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
