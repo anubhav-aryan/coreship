@@ -17,7 +17,7 @@ const Features: React.FC<FeaturesProps> = () => {
         </div>
       </section>
       {/* First Rectangle */}
-      <div className="flex justify-start bg-[#d9d9d9] rounded-[25px] w-[90%] md:w-[70%] lg:w-[40%] py-8 px-4 mb-8 ">
+      <div className="flex justify-start bg-[#d9d9d9] rounded-[25px] w-[70%] md:w-[70%] lg:w-[40%] py-8 px-4 mb-8 ">
         <div className="w-1/2 pr-8">
           <img
             src="/featureone.svg"
@@ -39,7 +39,7 @@ const Features: React.FC<FeaturesProps> = () => {
       <div className="w-full h-40 mb-12"></div>
 
       {/* Second Rectangle */}
-      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[90%] md:w-[70%] lg:w-[40%] py-8 px-4 mb-8 justify-center">
+      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[70%] md:w-[70%] lg:w-[40%] py-8 px-4 mb-8 justify-center">
         <div className="w-1/2 flex flex-col justify-center">
           <h2 className="text-xl md:text-2xl lg:text-3xl text-pink-400 text-center font-bold mb-4">
             Guided Projects and <span className="text-blue-900">Assignments</span>
@@ -61,7 +61,7 @@ const Features: React.FC<FeaturesProps> = () => {
       <div className="w-full h-40 mb-12 mt-12  flex items-center justify-center"></div>
 
       {/* Third Rectangle */}
-      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[90%] md:w-[70%] lg:w-[40%] py-8 px-4 justify-start">
+      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[70%] md:w-[70%] lg:w-[40%] py-8 px-4 justify-start">
         <div className="w-1/2 pr-8">
           <img
             src="/featurethree.svg"
@@ -82,12 +82,12 @@ const Features: React.FC<FeaturesProps> = () => {
       <div className="w-full h-40 mb-12 mt-12  flex items-center justify-center"></div>
 
       {/* Fourth Rectangle */}
-      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[90%] md:w-[70%] lg:w-[40%] py-8 px-4 justify-start">
+      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[70%] md:w-[70%] lg:w-[40%] py-8 px-4 justify-start">
         <div className="w-1/2 pr-8">
           <img
             src="/internship11.svg"
             alt="Feature 3"
-            className="w-full h-full"
+            className="w-full h-auto"
           />
         </div>
         <div className="w-1/2 flex flex-col justify-center">
