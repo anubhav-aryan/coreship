@@ -134,7 +134,7 @@ const Coursessection = () => {
               <div className="flex relative">
                 <Link href="productmgmt">
                   <Image
-                    src="/pROJECT.svg"
+                    src="/pROJE.svg"
                     alt="course8"
                     width={500}
                     height={500}
