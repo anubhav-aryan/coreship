@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 type FeaturesProps = {};
 
@@ -16,90 +15,90 @@ const Features: React.FC<FeaturesProps> = () => {
           </h1>
         </div>
       </section>
-      {/* First Rectangle */}
-      <div className="flex justify-start bg-[#d9d9d9] rounded-[25px] w-[70%] md:w-[70%] lg:w-[40%] py-8 px-4 mb-8 ">
-        <div className="w-1/2 pr-8">
-          <img
-            src="/featureone.svg"
-            alt="Feature 1"
-            className="w-full h-auto"
-          />
-        </div>
-        <div className="w-1/2 flex flex-col justify-center">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-blue-900 mb-2 md:mb-4 ">
-            <span className="text-pink-400">Hands-on</span> Training
-          </h2>
-          <p className="text-sm md:text-lg lg:text-xl font-bold text-gray-800">
-            You will acquire the knowledge of industry working and experience to
-            work in different industries.
-          </p>
-        </div>
-      </div>
 
-      <div className="w-full h-40 mb-12"></div>
+      {/* Grid Container */}
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 w-3/4 justify-center">
+        {/* First Card */}
+        <div className="flex bg-[#d9d9d9] rounded-[25px] py-4 px-4 mb-8">
+          <div className="w-1/2 pr-4">
+            <img
+              src="/featureone.svg"
+              alt="Feature 1"
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="w-1/2">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-blue-900 mb-2 md:mb-4 ">
+              <span className="text-pink-400">Hands-on</span> Training
+            </h2>
+            <p className="text-sm md:text-md lg:text-lg font-serif font-semibold text-gray-800">
+              You will acquire the knowledge of industry working and experience to
+              work in different industries.
+            </p>
+          </div>
+        </div>
 
-      {/* Second Rectangle */}
-      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[70%] md:w-[70%] lg:w-[40%] py-8 px-4 mb-8 justify-center">
-        <div className="w-1/2 flex flex-col justify-center">
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-pink-400 text-center font-bold mb-4">
-            Guided Projects and <span className="text-blue-900">Assignments</span>
-          </h2>
-          <p className="text-sm md:text-lg lg:text-xl font-bold text-center text-gray-800">
-            For you to understand the value of teamwork and how the corporate
-            world works.
-          </p>
+        {/* Second Card */}
+        <div className="flex bg-[#d9d9d9] rounded-[25px] py-4 px-4 mb-8">
+          <div className="w-1/2">
+            <h2 className="text-xl md:text-2xl lg:text-3xl text-pink-400 text-center font-bold mb-4">
+              Guided Projects and <span className="text-blue-900">Assignments</span>
+            </h2>
+            <p className="text-sm md:text-md lg:text-lg font-serif font-semibold text-center text-gray-800">
+              For you to understand the value of teamwork and how the corporate
+              world works.
+            </p>
+          </div>
+          <div className="w-1/2 pl-4">
+            <img
+              src="/featuretwo.svg"
+              alt="Feature 2"
+              className="w-full h-auto"
+            />
+          </div>
         </div>
-        <div className="w-1/2 pr-8">
-          <img
-            src="/featuretwo.svg"
-            alt="Feature 2"
-            className="w-full h-auto"
-          />
-        </div>
-      </div>
 
-      <div className="w-full h-40 mb-12 mt-12  flex items-center justify-center"></div>
+        {/* Third Card */}
+        <div className="flex bg-[#d9d9d9] rounded-[25px] py-4 px-4 mb-8">
+          <div className="w-1/2 pr-4">
+            <img
+              src="/featurethree.svg"
+              alt="Feature 3"
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="w-1/2">
+            <h2 className="text-xl md:text-2xl lg:text-3xl text-pink-400 font-bold mb-4">
+              Certificate of <span className="text-blue-900">Completion</span>
+            </h2>
+            <p className="text-sm md:text-md lg:text-lg font-serif font-semibold text-gray-800 mt-4">
+              To add 5 stars to your resume.
+            </p>
+          </div>
+        </div>
 
-      {/* Third Rectangle */}
-      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[70%] md:w-[70%] lg:w-[40%] py-8 px-4 justify-start">
-        <div className="w-1/2 pr-8">
-          <img
-            src="/featurethree.svg"
-            alt="Feature 3"
-            className="w-full h-auto"
-          />
+        {/* Fourth Card */}
+        <div className="flex bg-[#d9d9d9] rounded-[25px] py-4 px-4 mb-8">
+          <div className="w-1/2">
+            <h2 className="text-xl md:text-2xl lg:text-3xl text-pink-400 font-bold">
+              Guaranteed of <span className="text-blue-900">Internship</span>
+            </h2>
+            <p className="text-sm md:text-md lg:text-lg font-serif font-semibold text-gray-800 mt-4">
+              Secure your involvement in a genuine internship opportunity that
+              promises invaluable hands-on experience and a chance to apply
+              classroom knowledge in a real-world context.
+            </p>
+          </div>
+          <div className="w-1/2 pl-4 ">
+            <img
+              src="/internship11.svg"
+              alt="Feature 3"
+              className="w-full h-auto transform scale-150"
+            />
+          </div>
         </div>
-        <div className="w-1/2 flex flex-col justify-center">
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-center text-pink-400 font-bold mb-12">
-            Certificate of <span className="text-blue-900">Completion</span>
-          </h2>
-          <p className="text-sm md:text-lg lg:text-xl text-center font-bold text-gray-800 mt-12">
-            To add 5 stars to your resume.
-          </p>
-        </div>
-      </div>
 
-      <div className="w-full h-40 mb-12 mt-12  flex items-center justify-center"></div>
 
-      {/* Fourth Rectangle */}
-      <div className="flex bg-[#d9d9d9] rounded-[25px] w-[70%] md:w-[70%] lg:w-[40%] py-8 px-4 justify-start">
-        <div className="w-1/2 pr-8">
-          <img
-            src="/internship11.svg"
-            alt="Feature 3"
-            className="w-full h-auto"
-          />
-        </div>
-        <div className="w-1/2 flex flex-col justify-center">
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-center text-pink-400 font-bold">
-            Guaranteed of <span className="text-blue-900">Internship</span>
-          </h2>
-          <p className="text-sm md:text-lg lg:text-xl text-center font-bold text-gray-800 mt-12">
-            Secure your involvement in a genuine internship opportunity that
-            promises invaluable hands-on experience and a chance to apply
-            classroom knowledge in a real-world context.
-          </p>
-        </div>
       </div>
     </div>
   );
