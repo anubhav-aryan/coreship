@@ -27,10 +27,7 @@ const Footer = () => {
                             11:00 A.M. - 6:30 P.M.
                         </li>
                         <li>
-                            +91 84894 94210
-                        </li>
-                        <li>
-                            hariomshandliya@oromcorp.com
+                            +91 62053 74086
                         </li>
                     </ul>
                 </div>
