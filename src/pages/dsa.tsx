@@ -99,7 +99,7 @@ const dsa = () => {
                 <div className="ml-auto">
                   <Link
                     href={
-                      "https://checkout.stripe.com/c/pay/cs_live_a1f0dvZeR7DbGvIwxlwRXm9um2aC2WGm7vOdOnRWCorOFb43cxdRBgx2Jr#fidkdWxOYHwnPyd1blppbHNgWjA0S3VEZkhWQkhETnEyUWo1VFV%2FbV1QN2pHbX18UGt1XUlVPXJQUldUNVxDXzVJV2lvRmJTfVZUQzc1Nl1EPWhTREBWaTVTVVN%2FV098VUh0cTRmU2F0RE1DNTUzYUthMldjPScpJ3VpbGtuQH11anZgYUxhJz8nY19gMGlDMENiZFIyY29SYVRUJ3gl"
+                      "https://buy.stripe.com/fZe5lF5FgaW7fjWdQQ"
                     }
                   >
                     <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
